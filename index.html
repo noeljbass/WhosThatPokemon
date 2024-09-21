@@ -8,8 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Pokémon Randomizer</h1>
-        <button id="randomize-button">Get Random Pokémon</button>
+        <img src="logo.png" width="300px"><br>
+        <button id="randomize-button">Gen 1</button> <!-- Gen 1 button -->
+        <button id="gen2-button">Gen 2</button> <!-- New Gen 2 button -->
         <div id="pokemon-info" class="pokemon-info">
             <img id="pokemon-image" src="" alt="Pokémon Image">
             <h2 id="pokemon-name"></h2>
@@ -20,20 +21,40 @@
     <button id="sprites-button" onclick="window.location.href='sprites.html'">View All Pokémon Sprites</button>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // Display Bulbasaur on page load
+            const bulbasaur = pokemonList[0]; // Bulbasaur is the first Pokémon in the list
+            displayPokemon(bulbasaur);
+
             const selectedPokemon = localStorage.getItem('selectedPokemon');
             if (selectedPokemon) {
                 const pokemon = pokemonList.find(p => p.name === selectedPokemon);
                 if (pokemon) {
-                    document.getElementById('pokemon-image').src = pokemon.image;
-                    document.getElementById('pokemon-name').innerText = pokemon.name;
-                    document.getElementById('pokemon-types').innerText = `Types: ${pokemon.types.join(', ')}`;
-                    document.getElementById('pokemon-pokedexEntry').innerText = `Pokédex Entry: ${pokemon.pokedexEntry}`; 
+                    displayPokemon(pokemon);
                 }
                 localStorage.removeItem('selectedPokemon'); 
             }
         });
+
+        // Function to display Pokémon information
+        function displayPokemon(pokemon) {
+            document.getElementById('pokemon-image').src = pokemon.image;
+            document.getElementById('pokemon-name').innerText = pokemon.name;
+
+            // Clear previous types
+            const typesContainer = document.getElementById('pokemon-types');
+            typesContainer.innerHTML = ''; // Clear previous types
+
+            // Create a span for each type and apply styles
+            pokemon.types.forEach(type => {
+                const typeSpan = document.createElement('span');
+                typeSpan.innerText = type;
+                typeSpan.className = 'pokemon-type ' + type.toLowerCase(); // Add class for styling
+                typesContainer.appendChild(typeSpan);
+            });
+
+            document.getElementById('pokemon-pokedexEntry').innerText = `Pokédex Entry: ${pokemon.pokedexEntry}`;
+        }
     </script>
     <script src="script.js"></script>
 </body>
 </html>
-

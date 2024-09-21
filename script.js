@@ -76,7 +76,7 @@ const pokemonList = [
     { name: "Slowbro", types: ["Water", "Psychic"], image: "https://img.pokemondb.net/sprites/home/normal/slowbro.png", pokedexEntry: "Slowbro is often seen with a Shellder attached to its tail." },
     { name: "Magnemite", types: ["Electric", "Steel"], image: "https://img.pokemondb.net/sprites/home/normal/magnemite.png", pokedexEntry: "Magnemite is attracted to magnetic fields." },
     { name: "Magneton", types: ["Electric", "Steel"], image: "https://img.pokemondb.net/sprites/home/normal/magneton.png", pokedexEntry: "Magneton is formed by three Magnemite joining together." },
-    { name: "Farfetch'd", types: ["Normal", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/farfetchd.png", pokedexEntry: "Farfetch'd is known for carrying a leek, which it uses in battle." },
+    { name: "Farfetchd", types: ["Normal", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/farfetchd.png", pokedexEntry: "Farfetch'd is known for carrying a leek, which it uses in battle." },
     { name: "Doduo", types: ["Normal", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/doduo.png", pokedexEntry: "Doduo has two heads that can act independently." },
     { name: "Dodrio", types: ["Normal", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/dodrio.png", pokedexEntry: "Dodrio can run at speeds of up to 60 mph." },
     { name: "Seel", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/seel.png", pokedexEntry: "Seel is known for its playful nature and love of swimming." },
@@ -109,7 +109,7 @@ const pokemonList = [
     { name: "Chansey", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/chansey.png", pokedexEntry: "Chansey lays highly nutritious eggs on an everyday basis." },
     { name: "Tangela", types: ["Grass"], image: "https://img.pokemondb.net/sprites/home/normal/tangela.png", pokedexEntry: "Tangela's body is covered with a thick, blue vine. It is said to be a plant." },
     { name: "Kangaskhan", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/kangaskhan.png", pokedexEntry: "Kangaskhan is a protective parent. It carries its baby in its pouch." },
-    { name: "Horsea", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/horse.png", pokedexEntry: "Horsea can easily hide itself in water. It is known to be a good swimmer." },
+    { name: "Horsea", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/horsea.png", pokedexEntry: "Horsea can easily hide itself in water. It is known to be a good swimmer." },
     { name: "Seadra", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/seadra.png", pokedexEntry: "Seadra's spines can pierce through the skin of its prey." },
     { name: "Goldeen", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/goldeen.png", pokedexEntry: "Goldeen is known for its beautiful fins. It can swim gracefully." },
     { name: "Seaking", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/seaking.png", pokedexEntry: "Seaking's horn can pierce through the toughest of materials." },
@@ -144,15 +144,134 @@ const pokemonList = [
     { name: "Dragonair", types: ["Dragon"], image: "https://img.pokemondb.net/sprites/home/normal/dragonair.png", pokedexEntry: "Dragonair is known for its mystical powers. It can control the weather." },
     { name: "Dragonite", types: ["Dragon", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/dragonite.png", pokedexEntry: "Dragonite is a powerful Pokémon. It can fly at incredible speeds." },
     { name: "Mewtwo", types: ["Psychic"], image: "https://img.pokemondb.net/sprites/home/normal/mewtwo.png", pokedexEntry: "Mewtwo is a genetically engineered Pokémon. It is known for its psychic abilities." },
-    { name: "Mew", types: ["Psychic"], image: "https://img.pokemondb.net/sprites/home/normal/mew.png", pokedexEntry: "Mew is a mythical Pokémon. It is said to have the DNA of all Pokémon." }
+    { name: "Mew", types: ["Psychic"], image: "https://img.pokemondb.net/sprites/home/normal/mew.png", pokedexEntry: "Mew is a mythical Pokémon. It is said to have the DNA of all Pokémon." },
+    //Generation 2 Pokemon
+    { name: "Chikorita", types: ["Grass"], image: "https://img.pokemondb.net/sprites/home/normal/chikorita.png", pokedexEntry: "Chikorita's leaf is a vital part of its biology. It uses the leaf to sense the temperature and humidity." },
+    { name: "Bayleef", types: ["Grass"], image: "https://img.pokemondb.net/sprites/home/normal/bayleef.png", pokedexEntry: "Bayleef's aroma has a soothing effect. It can calm aggressive Pokémon." },
+    { name: "Meganium", types: ["Grass"], image: "https://img.pokemondb.net/sprites/home/normal/meganium.png", pokedexEntry: "Meganium's breath has the power to revive dead plants and flowers." },
+    { name: "Cyndaquil", types: ["Fire"], image: "https://img.pokemondb.net/sprites/home/normal/cyndaquil.png", pokedexEntry: "Cyndaquil's back burns brightly when it is excited." },
+    { name: "Quilava", types: ["Fire"], image: "https://img.pokemondb.net/sprites/home/normal/quilava.png", pokedexEntry: "Quilava can shoot fire from its back. It is known to be a fierce fighter." },
+    { name: "Typhlosion", types: ["Fire"], image: "https://img.pokemondb.net/sprites/home/normal/typhlosion.png", pokedexEntry: "Typhlosion can unleash a powerful flame that can melt anything." },
+    { name: "Totodile", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/totodile.png", pokedexEntry: "Totodile is known for its playful nature and sharp teeth." },
+    { name: "Croconaw", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/croconaw.png", pokedexEntry: "Croconaw is a strong swimmer and can hold its breath for a long time." },
+    { name: "Feraligatr", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/feraligatr.png", pokedexEntry: "Feraligatr is known for its powerful jaws and aggressive nature." },
+    { name: "Sentret", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/sentret.png", pokedexEntry: "Sentret stands on its tail to see over tall grass." },
+    { name: "Furret", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/furret.png", pokedexEntry: "Furret is known for its speed and agility." },
+    { name: "Hoothoot", types: ["Normal", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/hoothoot.png", pokedexEntry: "Hoothoot is active at night and can rotate its head 180 degrees." },
+    { name: "Noctowl", types: ["Normal", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/noctowl.png", pokedexEntry: "Noctowl is known for its wisdom and keen eyesight." },
+    { name: "Ledyba", types: ["Bug", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/ledyba.png", pokedexEntry: "Ledyba is known for its ability to fly gracefully." },
+    { name: "Ledian", types: ["Bug", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/ledian.png", pokedexEntry: "Ledian is known for its speed and agility." },
+    { name: "Spinarak", types: ["Bug", "Poison"], image: "https://img.pokemondb.net/sprites/home/normal/spinarak.png", pokedexEntry: "Spinarak spins webs to catch its prey." },
+    { name: "Ariados", types: ["Bug", "Poison"], image: "https://img.pokemondb.net/sprites/home/normal/ariados.png", pokedexEntry: "Ariados can create strong webs to trap its prey." },
+    { name: "Crobat", types: ["Poison", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/crobat.png", pokedexEntry: "Crobat is known for its speed and agility in the air." },
+    { name: "Chinchou", types: ["Water", "Electric"], image: "https://img.pokemondb.net/sprites/home/normal/chinchou.png", pokedexEntry: "Chinchou can generate electricity to stun its prey." },
+    { name: "Lanturn", types: ["Water", "Electric"], image: "https://img.pokemondb.net/sprites/home/normal/lanturn.png", pokedexEntry: "Lanturn can illuminate dark waters with its light." },
+    { name: "Pichu", types: ["Electric"], image: "https://img.pokemondb.net/sprites/home/normal/pichu.png", pokedexEntry: "Pichu is known for its cuteness and small size." },
+    { name: "Cleffa", types: ["Fairy"], image: "https://img.pokemondb.net/sprites/home/normal/cleffa.png", pokedexEntry: "Cleffa is known for its playful nature." },
+    { name: "Igglybuff", types: ["Normal", "Fairy"], image: "https://img.pokemondb.net/sprites/home/normal/igglybuff.png", pokedexEntry: "Igglybuff can sing a lullaby that puts others to sleep." },
+    { name: "Togepi", types: ["Fairy"], image: "https://img.pokemondb.net/sprites/home/normal/togepi.png", pokedexEntry: "Togepi is known for its ability to bring happiness." },
+    { name: "Togetic", types: ["Fairy", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/togetic.png", pokedexEntry: "Togetic is known for its ability to spread joy." },
+    { name: "Natu", types: ["Psychic", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/natu.png", pokedexEntry: "Natu can see the future and is known for its intelligence." },
+    { name: "Xatu", types: ["Psychic", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/xatu.png", pokedexEntry: "Xatu can see the past and future." },
+    { name: "Mareep", types: ["Electric"], image: "https://img.pokemondb.net/sprites/home/normal/mareep.png", pokedexEntry: "Mareep's wool can generate electricity." },
+    { name: "Flaaffy", types: ["Electric"], image: "https://img.pokemondb.net/sprites/home/normal/flaaffy.png", pokedexEntry: "Flaaffy can store electricity in its wool." },
+    { name: "Ampharos", types: ["Electric"], image: "https://img.pokemondb.net/sprites/home/normal/ampharos.png", pokedexEntry: "Ampharos can generate powerful electric shocks." },
+    { name: "Bellossom", types: ["Grass"], image: "https://img.pokemondb.net/sprites/home/normal/bellossom.png", pokedexEntry: "Bellossom is known for its beautiful flowers." },
+    { name: "Marill", types: ["Water", "Fairy"], image: "https://img.pokemondb.net/sprites/home/normal/marill.png", pokedexEntry: "Marill is known for its round shape and playful nature." },
+    { name: "Azumarill", types: ["Water", "Fairy"], image: "https://img.pokemondb.net/sprites/home/normal/azumarill.png", pokedexEntry: "Azumarill is known for its swimming ability." },
+    { name: "Sudowoodo", types: ["Rock"], image: "https://img.pokemondb.net/sprites/home/normal/sudowoodo.png", pokedexEntry: "Sudowoodo is known for its tree-like appearance." },
+    { name: "Politoed", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/politoed.png", pokedexEntry: "Politoed is known for its singing ability." },
+    { name: "Hoppip", types: ["Grass", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/hoppip.png", pokedexEntry: "Hoppip can float in the air using its fluffy body." },
+    { name: "Skiploom", types: ["Grass", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/skiploom.png", pokedexEntry: "Skiploom can ride the wind to travel long distances." },
+    { name: "Jumpluff", types: ["Grass", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/jumpluff.png", pokedexEntry: "Jumpluff can float on the wind for long periods." },
+    { name: "Aipom", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/aipom.png", pokedexEntry: "Aipom is known for its long tail and playful nature." },
+    { name: "Sunkern", types: ["Grass"], image: "https://img.pokemondb.net/sprites/home/normal/sunkern.png", pokedexEntry: "Sunkern is known for its small size and sunny disposition." },
+    { name: "Sunflora", types: ["Grass"], image: "https://img.pokemondb.net/sprites/home/normal/sunflora.png", pokedexEntry: "Sunflora is known for its ability to soak up sunlight." },
+    { name: "Yanma", types: ["Bug", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/yanma.png", pokedexEntry: "Yanma is known for its speed and agility." },
+    { name: "Wooper", types: ["Water", "Ground"], image: "https://img.pokemondb.net/sprites/home/normal/wooper.png", pokedexEntry: "Wooper is known for its slimy body." },
+    { name: "Quagsire", types: ["Water", "Ground"], image: "https://img.pokemondb.net/sprites/home/normal/quagsire.png", pokedexEntry: "Quagsire is known for its laid-back nature." },
+    { name: "Espeon", types: ["Psychic"], image: "https://img.pokemondb.net/sprites/home/normal/espeon.png", pokedexEntry: "Espeon is known for its psychic abilities." },
+    { name: "Umbreon", types: ["Dark"], image: "https://img.pokemondb.net/sprites/home/normal/umbreon.png", pokedexEntry: "Umbreon is known for its stealth and agility." },
+    { name: "Leafeon", types: ["Grass"], image: "https://img.pokemondb.net/sprites/home/normal/leafeon.png", pokedexEntry: "Leafeon is known for its ability to blend in with nature." },
+    { name: "Glaceon", types: ["Ice"], image: "https://img.pokemondb.net/sprites/home/normal/glaceon.png", pokedexEntry: "Glaceon is known for its icy breath." },
+    { name: "Sylveon", types: ["Fairy"], image: "https://img.pokemondb.net/sprites/home/normal/sylveon.png", pokedexEntry: "Sylveon is known for its charming appearance." },
+    { name: "Murkrow", types: ["Dark", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/murkrow.png", pokedexEntry: "Murkrow is known for its mischievous nature." },
+    { name: "Honchkrow", types: ["Dark", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/honchkrow.png", pokedexEntry: "Honchkrow is known for its leadership among Murkrow." },
+    { name: "Shuckle", types: ["Bug", "Rock"], image: "https://img.pokemondb.net/sprites/home/normal/shuckle.png", pokedexEntry: "Shuckle is known for its ability to store berries." },
+    { name: "Granbull", types: ["Fairy"], image: "https://img.pokemondb.net/sprites/home/normal/granbull.png", pokedexEntry: "Granbull is known for its strong jaws." },
+    { name: "Qwilfish", types: ["Water", "Poison"], image: "https://img.pokemondb.net/sprites/home/normal/qwilfish.png", pokedexEntry: "Qwilfish is known for its ability to inflate its body." },
+    { name: "Scizor", types: ["Bug", "Steel"], image: "https://img.pokemondb.net/sprites/home/normal/scizor.png", pokedexEntry: "Scizor is known for its speed and strength." },
+    { name: "Sneasel", types: ["Dark", "Ice"], image: "https://img.pokemondb.net/sprites/home/normal/sneasel.png", pokedexEntry: "Sneasel is known for its sharp claws." },
+    { name: "Teddiursa", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/teddiursa.png", pokedexEntry: "Teddiursa is known for its cute appearance." },
+    { name: "Ursaring", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/ursaring.png", pokedexEntry: "Ursaring is known for its strength." },
+    { name: "Slugma", types: ["Fire"], image: "https://img.pokemondb.net/sprites/home/normal/slugma.png", pokedexEntry: "Slugma is known for its molten body." },
+    { name: "Magcargo", types: ["Fire", "Rock"], image: "https://img.pokemondb.net/sprites/home/normal/magcargo.png", pokedexEntry: "Magcargo is known for its hot shell." },
+    { name: "Swinub", types: ["Ice", "Ground"], image: "https://img.pokemondb.net/sprites/home/normal/swinub.png", pokedexEntry: "Swinub is known for its ability to find food under the snow." },
+    { name: "Piloswine", types: ["Ice", "Ground"], image: "https://img.pokemondb.net/sprites/home/normal/piloswine.png", pokedexEntry: "Piloswine is known for its thick fur." },
+    { name: "Corsola", types: ["Water", "Rock"], image: "https://img.pokemondb.net/sprites/home/normal/corsola.png", pokedexEntry: "Corsola is known for its coral-like appearance." },
+    { name: "Remoraid", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/remoraid.png", pokedexEntry: "Remoraid is known for its ability to shoot water." },
+    { name: "Octillery", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/octillery.png", pokedexEntry: "Octillery is known for its powerful water jets." },
+    { name: "Delibird", types: ["Ice", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/delibird.png", pokedexEntry: "Delibird is known for delivering gifts." },
+    { name: "Mantine", types: ["Water", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/mantine.png", pokedexEntry: "Mantine is known for its graceful swimming." },
+    { name: "Skarmory", types: ["Steel", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/skarmory.png", pokedexEntry: "Skarmory is known for its tough metal body." },
+    { name: "Houndoom", types: ["Dark", "Fire"], image: "https://img.pokemondb.net/sprites/home/normal/houndoom.png", pokedexEntry: "Houndoom is known for its fiery breath." },
+    { name: "Kingdra", types: ["Water", "Dragon"], image: "https://img.pokemondb.net/sprites/home/normal/kingdra.png", pokedexEntry: "Kingdra is known for its powerful water attacks." },
+    { name: "Phanpy", types: ["Ground"], image: "https://img.pokemondb.net/sprites/home/normal/phanpy.png", pokedexEntry: "Phanpy is known for its playful nature." },
+    { name: "Donphan", types: ["Ground"], image: "https://img.pokemondb.net/sprites/home/normal/donphan.png", pokedexEntry: "Donphan is known for its strength and speed." },
+    { name: "Porygon2", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/porygon2.png", pokedexEntry: "Porygon2 is known for its ability to adapt." },
+    { name: "Stantler", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/stantler.png", pokedexEntry: "Stantler is known for its antlers." },
+    { name: "Smeargle", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/smeargle.png", pokedexEntry: "Smeargle is known for its ability to paint." },
+    { name: "Tyrogue", types: ["Fighting"], image: "https://img.pokemondb.net/sprites/home/normal/tyrogue.png", pokedexEntry: "Tyrogue is known for its fighting skills." },
+    { name: "Hitmontop", types: ["Fighting"], image: "https://img.pokemondb.net/sprites/home/normal/hitmontop.png", pokedexEntry: "Hitmontop is known for its spinning attacks." },
+    { name: "Smoochum", types: ["Ice", "Psychic"], image: "https://img.pokemondb.net/sprites/home/normal/smoochum.png", pokedexEntry: "Smoochum is known for its cute appearance." },
+    { name: "Elekid", types: ["Electric"], image: "https://img.pokemondb.net/sprites/home/normal/elekid.png", pokedexEntry: "Elekid is known for its electric abilities." },
+    { name: "Magby", types: ["Fire"], image: "https://img.pokemondb.net/sprites/home/normal/magby.png", pokedexEntry: "Magby is known for its fiery personality." },
+    { name: "Miltank", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/miltank.png", pokedexEntry: "Miltank is known for its milk production." },
+    { name: "Blissey", types: ["Normal"], image: "https://img.pokemondb.net/sprites/home/normal/blissey.png", pokedexEntry: "Blissey is known for its healing abilities." },
+    { name: "Raikou", types: ["Electric"], image: "https://img.pokemondb.net/sprites/home/normal/raikou.png", pokedexEntry: "Raikou is known for its speed and electric attacks." },
+    { name: "Entei", types: ["Fire"], image: "https://img.pokemondb.net/sprites/home/normal/entei.png", pokedexEntry: "Entei is known for its powerful fire attacks." },
+    { name: "Suicune", types: ["Water"], image: "https://img.pokemondb.net/sprites/home/normal/suicune.png", pokedexEntry: "Suicune is known for its graceful swimming." },
+    { name: "Larvitar", types: ["Rock", "Ground"], image: "https://img.pokemondb.net/sprites/home/normal/larvitar.png", pokedexEntry: "Larvitar is known for its strong will." },
+    { name: "Pupitar", types: ["Rock", "Ground"], image: "https://img.pokemondb.net/sprites/home/normal/pupitar.png", pokedexEntry: "Pupitar is known for its tough exterior." },
+    { name: "Tyranitar", types: ["Rock", "Dark"], image: "https://img.pokemondb.net/sprites/home/normal/tyranitar.png", pokedexEntry: "Tyranitar is known for its immense power." },
+    { name: "Lugia", types: ["Psychic", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/lugia.png", pokedexEntry: "Lugia is known as the guardian of the seas." },
+    { name: "Ho-Oh", types: ["Fire", "Flying"], image: "https://img.pokemondb.net/sprites/home/normal/ho-oh.png", pokedexEntry: "Ho-Oh is known for its rainbow-colored wings." },
+    { name: "Celebi", types: ["Psychic", "Grass"], image: "https://img.pokemondb.net/sprites/home/normal/celebi.png", pokedexEntry: "Celebi is known for its time-traveling abilities." }
 ];
 
 document.getElementById('randomize-button').addEventListener('click', () => {
-    const randomIndex = Math.floor(Math.random() * pokemonList.length);
-    const selectedPokemon = pokemonList[randomIndex];
+    const gen1PokemonList = pokemonList.slice(0, 151); // Get the first 151 Pokémon
+    const randomIndex = Math.floor(Math.random() * gen1PokemonList.length);
+    const selectedPokemon = gen1PokemonList[randomIndex];
 
-    document.getElementById('pokemon-image').src = selectedPokemon.image;
-    document.getElementById('pokemon-name').innerText = selectedPokemon.name;
-    document.getElementById('pokemon-types').innerText = `Types: ${selectedPokemon.types.join(', ')}`;
-    document.getElementById('pokemon-pokedexEntry').innerText = `Pokédex Entry: ${selectedPokemon.pokedexEntry}`;
+    displayPokemon(selectedPokemon);
 });
+
+// New Gen 2 button event listener
+document.getElementById('gen2-button').addEventListener('click', () => {
+    const gen2PokemonList = pokemonList.slice(151); // Get Pokémon from index 151 onwards
+    const randomIndex = Math.floor(Math.random() * gen2PokemonList.length);
+    const selectedPokemon = gen2PokemonList[randomIndex];
+
+    displayPokemon(selectedPokemon);
+});
+
+// Function to display Pokémon information
+function displayPokemon(pokemon) {
+    document.getElementById('pokemon-image').src = pokemon.image;
+    document.getElementById('pokemon-name').innerText = pokemon.name;
+
+    // Clear previous types
+    const typesContainer = document.getElementById('pokemon-types');
+    typesContainer.innerHTML = ''; // Clear previous types
+
+    // Create a span for each type and apply styles
+    pokemon.types.forEach(type => {
+        const typeSpan = document.createElement('span');
+        typeSpan.innerText = type;
+        typeSpan.className = 'pokemon-type ' + type.toLowerCase(); // Add class for styling
+        typesContainer.appendChild(typeSpan);
+    });
+
+    document.getElementById('pokemon-pokedexEntry').innerText = `Pokédex Entry: ${pokemon.pokedexEntry}`;
+}

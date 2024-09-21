@@ -50,3 +50,95 @@ h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }
+
+.pokemon-type {
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.water {
+    color: white;
+    background-color: blue;
+}
+
+.fire {
+    color: white;
+    background-color: red;
+}
+
+.grass {
+    color: white;
+    background-color: green;
+}
+
+.poison {
+    color: white;
+    background-color: purple;
+}
+
+.bug {
+    color: black;
+    background-color: lime;
+}
+
+.flying {
+    color: black;
+    background-color: lightblue;
+}
+
+.normal {
+    color: black;
+    background-color: white;
+}
+
+.electric {
+    color: black;
+    background-color: yellow;
+}
+
+.ground {
+    color: white;
+    background-color: brown;
+}
+
+.fairy {
+    color: black;
+    background-color: lightpink;
+}
+
+.fighting {
+    color: black;
+    background-color: orange;
+}
+
+.psychic {
+    color: white;
+    background-color: violet;
+}
+
+.rock {
+    color: white;
+    background-color: black;
+}
+
+.steel {
+    color: white;
+    background-color: silver;
+}
+
+.ice {
+    color: black;
+    background-color: lightblue; /* Adjusted to a more standard color */
+}
+
+.ghost {
+    color: black;
+    background-color: rgb(228, 134, 228); /* Adjusted to a more standard color */
+}
+
+.dragon {
+    color: white;
+    background: linear-gradient(to right, green, blue); /* Gradient for dragon */
+}
