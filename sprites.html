@@ -166,7 +166,6 @@
 
         const pokemonSpritesDiv = document.getElementById('pokemon-sprites');
 
-        // Create sprite elements
         pokemonList.forEach(pokemon => {
             const spriteDiv = document.createElement('div');
             spriteDiv.className = 'sprite';
@@ -174,13 +173,11 @@
             pokemonSpritesDiv.appendChild(spriteDiv);
         });
 
-        // Function to select a Pokémon and return to the main page
         function selectPokemon(name) {
             localStorage.setItem('selectedPokemon', name);
             window.location.href = 'index.html';
         }
 
-        // Back button functionality
         document.getElementById('back-button').addEventListener('click', () => {
             window.location.href = 'index.html';
         });

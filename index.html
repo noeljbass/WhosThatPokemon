@@ -14,7 +14,7 @@
             <img id="pokemon-image" src="" alt="Pokémon Image">
             <h2 id="pokemon-name"></h2>
             <p id="pokemon-types"></p>
-            <p id="pokemon-pokedexEntry"></p> <!-- Updated ID to reflect Pokédex Entry -->
+            <p id="pokemon-pokedexEntry"></p> 
         </div>
     </div>
     <button id="sprites-button" onclick="window.location.href='sprites.html'">View All Pokémon Sprites</button>
@@ -27,9 +27,9 @@
                     document.getElementById('pokemon-image').src = pokemon.image;
                     document.getElementById('pokemon-name').innerText = pokemon.name;
                     document.getElementById('pokemon-types').innerText = `Types: ${pokemon.types.join(', ')}`;
-                    document.getElementById('pokemon-pokedexEntry').innerText = `Pokédex Entry: ${pokemon.pokedexEntry}`; // Updated to show Pokédex Entry
+                    document.getElementById('pokemon-pokedexEntry').innerText = `Pokédex Entry: ${pokemon.pokedexEntry}`; 
                 }
-                localStorage.removeItem('selectedPokemon'); // Clear the selected Pokémon after loading
+                localStorage.removeItem('selectedPokemon'); 
             }
         });
     </script>
