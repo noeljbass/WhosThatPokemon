@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: red;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background: radial-gradient(circle, white, rgb(125, 192, 247), rgb(4, 0, 255), red);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.pokemon-info {
+    margin-top: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    background: white;
+    border: 2px solid black; /* Solid white border */
+    color: black; /* White text color */
+    font-weight: bolder; /* Bold text */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Optional: rounded corners for the button */
+    transition: background 0.3s; /* Optional: smooth transition for hover effect */
+}
+
+p {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+h1 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
